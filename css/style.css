@@ -1,0 +1,29 @@
+.botao-menu:hover {
+    color: rgb(218, 62, 122);
+    background-color: grey;
+
+}
+
+#painel {
+    min-height: 100vh;
+}
+
+.bg-main{
+    background-image: url(../img/AdobeStock_759770655.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#nome{
+    color: rgb(218, 62, 122);
+}
+
+@media (max-width:767.98px){
+    #painel {
+        min-height: auto;
+    }
+    .fs-4{
+        font-size: 1.1rem !important;
+    }
+}
